@@ -8,21 +8,24 @@
 
 Для запуска необходимо следующее:
 - Установленный Python 3
-- Установлены зависимости командой `pip install -r requirements.txt`
+- Установлены зависимости командой 
+```commandline
+pip install -r requirements.txt
+```
 
 # Использование
 
 Для запуска скрипта необходимо воспользоваться командой:
-```
+```commandline
 python3 weather.py 
 ```
 
 ### Пример вывода
 
-```
+```commandline
 $ python3 .\weather.py
-
-Прогноз погоды: London
+```
+```Прогноз погоды: London
 
                 Пасмурно
        .--.     +12(10) °C
